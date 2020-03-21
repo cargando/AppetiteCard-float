@@ -1,0 +1,49 @@
+.page-footer {
+  margin-top: 30px;
+  background-color: $dark-green;
+  padding: 30px 55px;
+  color: $menu-text;
+
+  &__top {
+    border-bottom: 1px solid $line;
+  }
+
+  &__middle {
+    border-bottom: 1px solid $line;
+    padding: 40px;
+  }
+
+  &__bottom {
+    padding-top: 40px;
+  }
+
+  &__copyright {
+    padding-left: 30px;
+
+    float: left;
+    text-align: left;
+  }
+}
+
+.subscribe-block_footer {
+  width: 250px;
+  float: right;
+}
+
+.logo_footer {
+  float: left;
+}
+
+.social-links_footer {
+  float: right;
+}
+
+.apps_footer {
+  float: right;
+}
+
+.menu-block_footer {
+  float: left;
+  width: 108px;
+
+}

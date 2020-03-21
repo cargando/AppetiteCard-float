@@ -1,0 +1,54 @@
+
+.search-form {
+  margin-top: 140px;
+
+  &__form {
+    width: 70%;
+    height: 38px;
+    background-color: $bg;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  &__input {
+    padding: 10px 10px 10px 40px;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    font-size: 14px;
+    width: 50%;
+    float: left;
+
+  }
+
+  &__input::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+    background-image: url(../img/search.png);
+  }
+
+  &__select {
+    height: 100%;
+    background-color: $bg;
+    width: 30%;
+    float: left;
+  }
+
+  &__btn {
+    padding: 10px auto;
+    background: $green;
+    border: none;
+    color: $menu-text;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    width: 20%;
+    float: right;
+    height: 100%;
+
+  }
+}

@@ -1,0 +1,111 @@
+
+.using {
+
+  &__block {
+    width: 920px;
+    color: #f7f7f7;
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    background-image: url(../img/cards.png);
+    background-size: cover;
+    width: 610px;
+    height: 400px;
+    float: left;
+  }
+
+  &__texts {
+    background-color: #27312a;
+    font-size: 12px;
+    line-height: 18px;
+    height: 400px;
+    text-align: left;
+    padding: 30px 25px 30px 25px;
+    box-sizing: border-box;
+    float: right;
+    width: 310px;
+
+  }
+
+  &__steps {
+    width: 920px;
+  }
+
+  &__step {
+    background-size: cover;
+    height: 200px;
+  }
+
+  &__number {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #78ff08;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding-top: 9px;
+    box-sizing: border-box;
+
+  }
+
+  &__step_1 {
+    background-image: linear-gradient(to bottom, rgba(255, 113, 18, 0.4), rgba(255, 113, 18, 0.9)), url(../img/smartphone.webp);
+    position: relative;
+    width: 305px;
+    float: left;
+  }
+
+  &__number_1 {
+    background: #ff7112;
+  }
+
+  &__step_2 {
+    background-image: linear-gradient(to bottom, rgba(15, 174, 88, 0.4), rgba(15, 174, 88, 0.8)), url(../img/reserved2.jpg);
+    position: relative;
+    float: left;
+    width: 305px;
+  }
+
+  &__number_2 {
+    background: #0fae58;
+  }
+
+  &__step_3 {
+    background-image: linear-gradient(to bottom, rgba(13, 59, 255, 0.4), rgba(23, 43, 255, 0.7)), url(../img/enjoy.jpg);
+    position: relative;
+    float: right;
+    width: 310px;
+    height: 200px;
+    background-size: cover;
+  }
+
+  &__number_3 {
+    background: #27312a;
+    left: 20px;
+    top: 20px;
+  }
+
+  &__step-text {
+    padding: 120px 50px 25px 30px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+}
+
+.map_img {
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 40px;
+  padding-top: 10px;
+
+}
+

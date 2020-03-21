@@ -1,0 +1,59 @@
+
+.partners {
+  margin-bottom: 80px;
+
+  &__logos {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 13px;
+    background-image: url(../img/partner1.png);
+    background-size: cover;
+    float: left;
+
+  }
+
+  &__logo_2 {
+    background-image: url(../img/partner2.png);
+  }
+
+  &__logo_3 {
+    background-image: url(../img/partner3.png);
+  }
+
+  &__logo_4 {
+    background-image: url(../img/partner4.png);
+  }
+
+  &__logo_5 {
+    background-image: url(../img/partner5.png);
+  }
+
+  &__logo_6 {
+    background-image: url(../img/partner6.png);
+  }
+
+  &__logo_7 {
+    background-image: url(../img/partner7.png);
+  }
+
+  &__logo_8 {
+    background-image: url(../img/partner8.png);
+  }
+
+  &__logo_9 {
+    background-image: url(../img/partner9.png);
+  }
+
+  .partners__logo_10 {
+    background-image: url(../img/partner10.png);
+    margin-right: 0px;
+  }
+}
+
